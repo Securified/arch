@@ -14,6 +14,6 @@ if status is-interactive
     abbr free free -m
     abbr ll   ls -lh
     abbr ls   ls -h
-    abbr jctl sudo journalctl -fau
+    abbr jctl journalctl -fau
     abbr upd sudo pacman -Syu
 end
